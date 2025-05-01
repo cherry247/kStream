@@ -1,9 +1,9 @@
 package com.learnkstream.kstream;
 
-import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Component;
 
-@EnableKafka
+@Component
 public class KafkaConsumer {
 
     @KafkaListener(topics = "test-output", groupId = "test-group")

@@ -9,8 +9,8 @@ import org.springframework.kafka.annotation.EnableKafkaStreams;
 @SpringBootApplication
 public class KstreamApplication {
 
-	public static void main(String[] args) {
-	    SpringApplication.run(KstreamApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(KstreamApplication.class, args);
+    }
 
 }
